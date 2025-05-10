@@ -323,7 +323,7 @@ It is the stylesheet language that is used to define styles for the HTML documen
 
 ### 5. How to add CSS to the HTML document?
 ✅ 1. Inline CSS
-You add CSS directly to an HTML element using the style attribute.
+- You add CSS directly to an HTML element using the style attribute.
 
 ✅ 2. Internal CSS
 - In Internal CSS, CSS property-values are defined in the HTML style element inside the HTML head element.
