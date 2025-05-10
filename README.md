@@ -388,6 +388,7 @@ Compound Selectors, Complex Selectors and many more.
 
 #### 7. What is the id attribute and how did you write in CSS?
 The id attribute in HTML is used to uniquely identify an element on a webpage. Each id must be unique within a page, meaning no two elements should have the same id.
+
 **Syntax in HTML**:
 `<div id="main-content">Hello World</div>`
 ### How to write CSS using the id:
