@@ -373,7 +373,9 @@ Responsive web design:
 
 ### 15. What is meant by the CSS Selector and what are the different types of it?
 The CSS Selectors are used to select the HTML elements that we want to style.
+
 The different types of CSS Selectors are:
+
 Simple Selectors
 - Class Selector
 - ID Selector
