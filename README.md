@@ -14,7 +14,17 @@ HTML Elements are the building blocks of HTML that describe the structure and co
 - They generally consist of a start tag, content, and end tag.  
   **Syntax:**  
   `<tag>Content</tag>`
-
+### 3. What is the structure of an HTML document?
+Syntax:
+<!DOCTYPE html>
+<html>
+  <head>
+    Metadata elements
+  </head>
+  <body>
+    Document Content
+  </body>
+</html>
 
 ### 4. What is the use of the doctype?
 The doctype declaration tells the type/version of the HTML document to the browser.  
