@@ -63,7 +63,7 @@ The HTML anchor element is used to navigate to other web resources or a specific
 
 ### 9. What is the use of an HTML anchor element?
 - We use the HTML anchor elements to navigate to other web resources or a specific HTML element within the HTML document. They are also called Hyperlinks/ Links.
-Syntax:
+**Syntax:**
 `<a href="URL">Content</a>`
 
 ### 10. What are the differences between HTML div and span elements?
@@ -78,7 +78,7 @@ span element:
 ### 11. What is an HTML script element?
 - The HTML script element can be used to embed the JavaScript code.
 - It can contain scripting statements, or it points to an external script file through the src attribute.
-Syntax:
+**Syntax:**
 `<script src="counter.js"></script>`
 
 ### 12. How to display images on the web page?
@@ -86,7 +86,7 @@ We can display images on the web page using the HTML img element.
 Generally, the HTML img element requires two main HTML attributes.
 - src specifies the path to the image.
 - alt specifies an alternate text for the image.
-Syntax:
+**Syntax:**
 `<img src="IMAGE_URL" alt="image" />`
 
 ### 13. How to create a link in HTML, and what is the HTML target attribute?
@@ -99,8 +99,11 @@ Syntax:
 
 ### Value	Description
 _self	(Default value). It opens the document in the same window or tab as it was clicked.
+
 _blank	It opens the document in a new window or tab.
+
 _parent	It opens the document in a parent frame.
+
 _top	It opens the document in a full-body window.
 
 
@@ -132,14 +135,14 @@ Inline Elements:
 
 #### 17. What is an HTML class Attribute?
 - The class attribute in HTML is used to assign one or more class names to an element. CSS or JavaScript can then target these class names to style or manipulate elements.
-Syntax:
+**Syntax:**
 `<tag class="class-name">Content</tag>`
 
 ### 18. Why Do We Use the HTML id Attribute?
 - The id attribute in HTML is used to assign a unique identifier to an element. This ID must be unique within the entire HTML document.
 - It can be used for styling an HTML element using CSS.
 - It is also used by JavaScript to access and manipulate the HTML elements with the specific id.
-Syntax: 
+**Syntax:** 
 `<tag id="unique-id">Content</tag>`
 
 ### 19. What Are HTML Attributes?
@@ -167,7 +170,6 @@ You use the <form> element, which can contain input fields, buttons, labels, and
 `<form action="/submit-url" method="POST">
      <!-- form fields go here -->
  </form>`
-
 ### 🎯 Example: Simple Registration Form
 ```html
 <form action="/submit" method="POST">
