@@ -493,6 +493,7 @@ Using Media queries, we can conditionally apply styles based on the device type 
 }
 ```
 Media Type: Media type describes the general category of devices. Possible types of media are screen, print, tv, all, etc.
+
 Media Feature: Using Media Features, we can write Media Query for a specific feature. Examples: width, height, orientation, etc.
 
 
