@@ -422,6 +422,30 @@ In short:
 
 - !important (overrides all, not part of specificity but highest priority)
 
+### Q. How to import font-family in CSS?
+You can import a custom font in CSS using the @import rule or by linking it in HTML and then using it in your styles.
+
+✅ Method 1: Using @import in CSS
+
+`@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');`
+```html
+body {
+  font-family: 'Roboto', sans-serif;
+}
+```
+✅ Method 2: Using <link> in HTML
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+```
+Then in your CSS:
+```html
+body {
+  font-family: 'Roboto', sans-serif;
+}
+```
+
 
 
 
