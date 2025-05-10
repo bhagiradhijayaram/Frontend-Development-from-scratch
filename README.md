@@ -406,7 +406,30 @@ This CSS rule will apply styling to the element with id="main-content".
 CSS Specificity is a set of rules used by browsers to determine which CSS declaration is applied to an element when multiple rules match the same element. It calculates the weight of selectors to resolve conflicts, ensuring the most specific (or strongest) rule is applied.
 
 In short:
-- CSS Specificity is the priority system used to decide which CSS rule wins when multiple rules target the same element.
+- CSS Specificity is the priority system used to decide which CSS rule wins when multiple rules target the same element.###
+
+### CSS specificity order from lowest to highest:
+
+- Universal selector (*)
+
+- Element/type selectors (div, p, etc.)
+
+- Class selectors (.class), attribute selectors ([type="text"]), pseudo-classes (:hover)
+
+- ID selectors (#id)
+
+- Inline styles (style="...")
+
+- !important (overrides all, not part of specificity but highest priority)
+
+
+
+
+
+
+
+
+
 
 
 
