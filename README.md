@@ -447,6 +447,18 @@ body {
 }
 ```
 
+### 2. What is the CSS border radius property?
+The CSS border-radius property specifies the roundness of the four corners of an HTML element.
+
+```html
+.button {
+  background-color: skyblue;
+  border-radius: 20px;
+}
+```
+
+
+
 
 
 
