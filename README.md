@@ -359,6 +359,42 @@ Responsive web design:
 - Responsive web design is an approach to making web pages give the best user experience on all devices.
 - A responsive website will automatically adjust for different screen sizes and viewports.
 
+### 5. What are the advantages and disadvantages of CSS?
+
+✅ Advantages of CSS:
+Separation of content and style
+- HTML handles structure, CSS handles styling, making both easier to maintain.
+  
+Reusability
+- One CSS file can style multiple HTML pages, reducing repetition.
+
+Faster Page Loading
+- External stylesheets are cached by the browser, improving performance.
+
+Easier Maintenance
+- Changes to a single CSS file affect all linked HTML pages instantly.
+
+Consistent Design
+- Ensures uniform look and feel across the entire website.
+
+Responsive Design
+- Enables websites to adapt across devices using media queries.
+
+❌ Disadvantages of CSS:
+Browser Compatibility Issues
+- Some styles may behave differently in different browsers.
+
+Complexity in Large Projects
+- Without proper structure (like BEM, SCSS, or CSS Modules), CSS can become messy.
+
+No Logic or Conditionals
+- CSS lacks built-in logic, making dynamic styling limited without JS or preprocessors.
+
+Global Scope (in plain CSS)
+- Styles can unintentionally affect other elements unless scoped carefully.
+
+
+
 
 
 
