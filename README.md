@@ -475,14 +475,12 @@ Border – The edge around the padding (can be visible or invisible)
 Margin – Space outside the border that separates the element from others
 
 ### 🧱 Visual Structure (from inside out):
-
+```css
 [ Margin ]
-
   [ Border ]
-  
     [ Padding ]
-    
       [ Content ]
+```
 
 
 
