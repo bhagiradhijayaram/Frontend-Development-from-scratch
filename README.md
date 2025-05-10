@@ -48,7 +48,6 @@ Some of the uses of HTML are:
 - Creating Hyperlinks: With Hyperlinks, we can navigate within the HTML document, to other web pages, etc.
 - Embedding images and videos: HTML elements, we can embed images and videos in the HTML document.
 
-
 ### 8. Can we design dynamic web pages using HTML?
 No, HTML alone cannot design dynamic web pages.  
 By combining HTML with JavaScript, we can create dynamic web pages.
@@ -56,5 +55,5 @@ By combining HTML with JavaScript, we can create dynamic web pages.
 ### 9. What is the use of an HTML anchor element?
 The HTML anchor element is used to navigate to other web resources or a specific HTML element within the HTML document.  
 **Syntax:**  
-<a href="URL">Content</a>
+`<a href="URL">Content</a>`
 
