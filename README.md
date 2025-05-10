@@ -321,6 +321,25 @@ Better compatibility with new devices, browsers, and tools.
 CSS stands for Cascading Style Sheets.
 It is the stylesheet language that is used to define styles for the HTML documents, including the design, layout and variations in display for different devices and screen sizes.
 
+### 2. How to link the CSS file to the HTML file?
+- The HTML link element is used to link the CSS file to the HTML file. It should be placed in the HTML head element.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Hello, world!</h1>
+</body>
+</html>
+```
+- The HTML rel attribute stands for a relationship of the linked document to the current document. In this case, it is a stylesheet.
+- The HTML href attribute stands for the URL/path of the CSS file.
+
+
 ### 2. How to add CSS to the HTML document?
 CSS can be added to HTML documents in 3 ways.
 
@@ -339,8 +358,6 @@ CSS can be added to HTML documents in 3 ways.
 Responsive web design:
 - Responsive web design is an approach to making web pages give the best user experience on all devices.
 - A responsive website will automatically adjust for different screen sizes and viewports.
-
-
 
 
 
