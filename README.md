@@ -191,19 +191,23 @@ HTML checkbox input element:
 - It is also created by using the HTML input element with the type attribute value is set to checkbox.
 
 ### ✅ Checkbox Example:
+```html
 <h4>Select your hobbies:</h4>
 <input type="checkbox" name="hobby" value="reading"> Reading
 <input type="checkbox" name="hobby" value="music"> Music
 <input type="checkbox" name="hobby" value="travel"> Travel
+```
 
 ### ✅ Radio Button Example:
+```html
 <h4>Select your gender:</h4>
 <input type="radio" name="gender" value="male"> Male
 <input type="radio" name="gender" value="female"> Female
+```
 
 ### 23. What are the different types of input elements available and their uses?
 
-text
+"text"
 - Used for single-line text input. Example: name, city, etc.
 Syntax: 
 `<input type="text">`
