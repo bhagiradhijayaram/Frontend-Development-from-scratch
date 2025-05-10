@@ -371,6 +371,20 @@ Responsive web design:
 - Global scope in plain CSS – Styles can accidentally affect unintended elements.
 - No logic or dynamic behavior – CSS can't handle conditions or interact dynamically without JavaScript.
 
+### 15. What is meant by the CSS Selector and what are the different types of it?
+The CSS Selectors are used to select the HTML elements that we want to style.
+The different types of CSS Selectors are:
+Simple Selectors
+- Class Selector
+- ID Selector
+- Type (tag name) Selector
+- Attribute Selector
+- Universal Selector
+- Pseudo-class
+Compound Selectors
+Complex Selectors and many more.
+
+
 
 
 
