@@ -384,8 +384,7 @@ Simple Selectors
  - Universal Selector
  - Pseudo-class
 
-Compound Selectors
-Complex Selectors and many more.
+Compound Selectors, Complex Selectors and many more.
 
 
 
