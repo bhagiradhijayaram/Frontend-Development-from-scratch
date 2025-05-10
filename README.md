@@ -377,12 +377,13 @@ The CSS Selectors are used to select the HTML elements that we want to style.
 The different types of CSS Selectors are:
 
 Simple Selectors
-- Class Selector
-- ID Selector
-- Type (tag name) Selector
-- Attribute Selector
-- Universal Selector
-- Pseudo-class
+ - Class Selector
+ - ID Selector
+ - Type (tag name) Selector
+ - Attribute Selector
+ - Universal Selector
+ - Pseudo-class
+
 Compound Selectors
 Complex Selectors and many more.
 
