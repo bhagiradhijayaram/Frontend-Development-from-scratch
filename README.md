@@ -268,7 +268,7 @@ submit
 In short:
 Semantic elements give meaning to your HTML.
 
-Elements like <header>, <main>, <nav>, <button>, and <label> provide meaning and structure.
+Elements like ```html <header>, <main>, <nav>, <button>, and <label> ``` provide meaning and structure.
 
 ### ✅ Why Use Semantic HTML?
 - Improves Accessibility
