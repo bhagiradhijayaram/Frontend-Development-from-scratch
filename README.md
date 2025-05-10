@@ -2,7 +2,7 @@
 
 **Tech Stack:** HTML, CSS, Bootstrap, JavaScript (ES6+), and ReactJS.
 
-## HTML Fundamentals
+## HTML(Hypertext Markup Language) Fundamentals
 
 ### 1. What is HTML?
 HTML (Hypertext Markup Language) is the standard markup language for creating Web pages.
