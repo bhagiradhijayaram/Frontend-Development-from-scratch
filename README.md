@@ -477,8 +477,11 @@ Margin – Space outside the border that separates the element from others
 ### 🧱 Visual Structure (from inside out):
 
 [ Margin ]
+
   [ Border ]
+  
     [ Padding ]
+    
       [ Content ]
 
 
