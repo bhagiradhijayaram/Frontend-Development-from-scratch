@@ -13,8 +13,7 @@ HTML (Hypertext Markup Language) is the standard markup language for creating We
 HTML Elements are the building blocks of HTML that describe the structure and content of a web page.
 - They generally consist of a start tag, content, and end tag.
   
-**Syntax:**  
-`<tag>Content</tag>`
+**Syntax:**  `<tag>Content</tag>`
 
 ### 3. What is the structure of an HTML document?
 **Syntax:**
