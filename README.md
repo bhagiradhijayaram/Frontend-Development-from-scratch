@@ -1,5 +1,3 @@
-# Frontend-Development-from-scratch
-
 # Frontend Development Journey
 
 **Tech Stack:** HTML, CSS, Bootstrap, JavaScript (ES6+), and ReactJS.
