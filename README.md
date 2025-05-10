@@ -361,39 +361,16 @@ Responsive web design:
 
 ### 5. What are the advantages and disadvantages of CSS?
 
-✅ Advantages of CSS:
+✅ Advantages:
+- Separation of content and design – Makes code cleaner and easier to manage.
+- Reusability – One CSS file can style multiple HTML pages.
+- Improved website performance – External stylesheets are cached by browsers.
 
-Separation of content and style
-- HTML handles structure, CSS handles styling, making both easier to maintain.
-  
-Reusability
-- One CSS file can style multiple HTML pages, reducing repetition.
+❌ Disadvantages:
+- Browser compatibility issues – Styles may render differently across browsers.
+- Global scope in plain CSS – Styles can accidentally affect unintended elements.
+- No logic or dynamic behavior – CSS can't handle conditions or interact dynamically without JavaScript.
 
-Faster Page Loading
-- External stylesheets are cached by the browser, improving performance.
-
-Easier Maintenance
-- Changes to a single CSS file affect all linked HTML pages instantly.
-
-Consistent Design
-- Ensures uniform look and feel across the entire website.
-
-Responsive Design
-- Enables websites to adapt across devices using media queries.
-
-❌ Disadvantages of CSS:
-
-Browser Compatibility Issues
-- Some styles may behave differently in different browsers.
-
-Complexity in Large Projects
-- Without proper structure (like BEM, SCSS, or CSS Modules), CSS can become messy.
-
-No Logic or Conditionals
-- CSS lacks built-in logic, making dynamic styling limited without JS or preprocessors.
-
-Global Scope (in plain CSS)
-- Styles can unintentionally affect other elements unless scoped carefully.
 
 
 
