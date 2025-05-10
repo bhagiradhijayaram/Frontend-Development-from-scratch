@@ -481,6 +481,17 @@ Margin – Space outside the border that separates the element from others
     [ Padding ]
       [ Content ]
 ```
+### 13. Explain media queries and why are they used?
+Media queries play a crucial part while developing Responsive Layouts.
+Using Media queries, we can conditionally apply styles based on the device type (e.g. printers, TVs, etc.) and media features (e.g. viewport width, etc.).
+**Syntax:**
+```html
+@media media-type and (media-feature-expression) {
+  /* CSS rules go here */
+}
+```
+Media Type: Media type describes the general category of devices. Possible types of media are screen, print, tv, all, etc.
+Media Feature: Using Media Features, we can write Media Query for a specific feature. Examples: width, height, orientation, etc.
 
 
 
