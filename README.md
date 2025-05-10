@@ -427,8 +427,9 @@ You can import a custom font in CSS using the @import rule or by linking it in H
 
 ✅ Method 1: Using @import in CSS
 
-`@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');`
 ```html
+`@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');`
+
 body {
   font-family: 'Roboto', sans-serif;
 }
