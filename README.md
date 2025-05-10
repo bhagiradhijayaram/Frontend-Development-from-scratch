@@ -315,7 +315,7 @@ Better compatibility with new devices, browsers, and tools.
 ### 26. What is Accessibility in Web Development?
 - Accessibility (often abbreviated as a11y) means designing websites and applications so that everyone, including people with disabilities, can perceive, understand, navigate, and interact with the web effectively.
 
-### CSS Fundamentals
+### CSS(Cascading Style Sheets) Fundamentals
 
 
 
