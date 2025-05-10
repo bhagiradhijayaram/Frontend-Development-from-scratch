@@ -371,7 +371,7 @@ Responsive web design:
 - Global scope in plain CSS – Styles can accidentally affect unintended elements.
 - No logic or dynamic behavior – CSS can't handle conditions or interact dynamically without JavaScript.
 
-### 15. What is meant by the CSS Selector and what are the different types of it?
+### 6. What is meant by the CSS Selector and what are the different types of it?
 The CSS Selectors are used to select the HTML elements that we want to style.
 
 The different types of CSS Selectors are:
@@ -385,6 +385,29 @@ Simple Selectors
  - Pseudo-class
 
 Compound Selectors, Complex Selectors and many more.
+
+#### 7. What is the id attribute and how did you write in CSS?
+The id attribute in HTML is used to uniquely identify an element on a webpage. Each id must be unique within a page, meaning no two elements should have the same id.
+**Syntax in HTML**:
+`<div id="main-content">Hello World</div>`
+### How to write CSS using the id:
+In CSS, you select an element with an id by using the hash symbol # followed by the id name.
+```html
+#main-content {
+  color: blue;
+  font-size: 20px;
+}
+```
+This CSS rule will apply styling to the element with id="main-content".
+
+
+
+
+
+
+
+
+
 
 
 
