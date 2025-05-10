@@ -496,6 +496,12 @@ Media Type: Media type describes the general category of devices. Possible types
 
 Media Feature: Using Media Features, we can write Media Query for a specific feature. Examples: width, height, orientation, etc.
 
+### 14. What is CSS Flexbox?
+CSS Flexbox (short for Flexible Box Layout) is a CSS layout model that allows you to arrange elements in a one-dimensional row or column, and control how space is distributed among them even when their sizes are unknown or dynamic.
+It simplifies layout design compared to floats or positioning.
+
+
+
 
 
 
