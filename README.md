@@ -220,7 +220,7 @@ HTML checkbox input element:
 
 ### 23. What are the different types of input elements available and their uses?
 
-"text"
+`type="text"`
 - Used for single-line text input. Example: name, city, etc.
 Syntax: 
 `<input type="text">`
