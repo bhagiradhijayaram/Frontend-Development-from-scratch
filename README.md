@@ -25,8 +25,8 @@ HTML Elements are the building blocks of HTML that describe the structure and co
   <body>
     Document Content
   </body>
-</html>
-`
+</html>`
+
 ### 4. What is the use of the doctype?
 The doctype declaration tells the type/version of the HTML document to the browser.  
 This ensures that the HTML document is rendered in different browsers in the same and expected way.
