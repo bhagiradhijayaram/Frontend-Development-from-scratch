@@ -422,7 +422,7 @@ In short:
 
 - !important (overrides all, not part of specificity but highest priority)
 
-### Q. How to import font-family in CSS?
+### 9. How to import font-family in CSS?
 You can import a custom font in CSS using the @import rule or by linking it in HTML and then using it in your styles.
 
 ✅ Method 1: Using @import in CSS
@@ -447,7 +447,7 @@ body {
 }
 ```
 
-### 2. What is the CSS border radius property?
+### 10. What is the CSS border radius property?
 The CSS border-radius property specifies the roundness of the four corners of an HTML element.
 
 ```html
@@ -456,6 +456,10 @@ The CSS border-radius property specifies the roundness of the four corners of an
   border-radius: 20px;
 }
 ```
+
+### 11. What is the sequence of CSS margin properties?
+- The sequence of CSS margin properties is margin-top, margin-right, margin-bottom, margin-left.
+
 
 
 
