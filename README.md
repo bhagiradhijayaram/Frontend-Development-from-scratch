@@ -56,8 +56,7 @@ By combining HTML with JavaScript, we can create dynamic web pages.
 ### 9. What is the use of an HTML anchor element?
 The HTML anchor element is used to navigate to other web resources or a specific HTML element within the HTML document.  
 
-**Syntax:**  
-`<a href="URL">Content</a>`
+**Syntax:**  `<a href="URL">Content</a>`
 
 ### 8. Can we design dynamic web pages using HTML?
 - No, we can't design dynamic web pages with HTML alone.
