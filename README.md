@@ -401,6 +401,17 @@ In CSS, you select an element with an id by using the hash symbol # followed by 
 ```
 This CSS rule will apply styling to the element with id="main-content".
 
+### 8. What is CSS Specificity?
+
+CSS Specificity is a set of rules used by browsers to determine which CSS declaration is applied to an element when multiple rules match the same element. It calculates the weight of selectors to resolve conflicts, ensuring the most specific (or strongest) rule is applied.
+
+In short:
+- CSS Specificity is the priority system used to decide which CSS rule wins when multiple rules target the same element.
+
+
+
+
+
 
 
 
