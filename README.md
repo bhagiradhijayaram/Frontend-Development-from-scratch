@@ -27,6 +27,7 @@ HTML Elements are the building blocks of HTML that describe the structure and co
     Document Content
   </body>
 </html>
+```html
 
 ### 4. What is the use of the doctype?
 The doctype declaration tells the type/version of the HTML document to the browser.  
@@ -53,6 +54,5 @@ By combining HTML with JavaScript, we can create dynamic web pages.
 ### 9. What is the use of an HTML anchor element?
 The HTML anchor element is used to navigate to other web resources or a specific HTML element within the HTML document.  
 **Syntax:**  
-```html
 <a href="URL">Content</a>
 
