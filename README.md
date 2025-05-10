@@ -109,6 +109,7 @@ HTML ordered list
 - It is a collection of related items that follow some order or have a sequence	
 - It is created using the ol element	
 - By default, list items in the Ordered List are marked with numbers.
+  
 HTML unordered list:
 - It is a collection of related items that have no special order or sequence
 - It is created using the ul element- 
@@ -119,6 +120,7 @@ Block-level Elements:
 - The HTML Block-level elements always start in a new line and take up the full width available. 
 - So, an HTML Block-level element occupies the entire horizontal space of its parent element.
 - Examples: HTML h1 element, HTML p element, HTML div element, etc.
+  
 Inline Elements:
 - The HTML Inline elements do not start in a new line and take up the content width.
 - Examples: HTML button element, HTML img element, HTML a element, etc.
@@ -161,7 +163,6 @@ Syntax:
 - Forms in HTML are used to collect user input. They are essential for things like login pages, registrations, searches, and feedback.
 - How to Create a Form in HTML
 You use the <form> element, which can contain input fields, buttons, labels, and more.
-
 ### Basic Form Syntax:
 `<form action="/submit-url" method="POST">
      <!-- form fields go here -->
