@@ -321,6 +321,19 @@ Better compatibility with new devices, browsers, and tools.
 CSS stands for Cascading Style Sheets.
 It is the stylesheet language that is used to define styles for the HTML documents, including the design, layout and variations in display for different devices and screen sizes.
 
+### 5. How to add CSS to the HTML document?
+✅ 1. Inline CSS
+You add CSS directly to an HTML element using the style attribute.
+
+✅ 2. Internal CSS
+- In Internal CSS, CSS property-values are defined in the HTML style element inside the HTML head element.
+- It is used to define the styles for a single HTML document.
+  
+✅ 3. External CSS (Best Practice)
+- In External CSS, CSS property-values are defined in a separate .css file.
+- It can be used to define the styles for many HTML documents.
+
+
 
 
 
