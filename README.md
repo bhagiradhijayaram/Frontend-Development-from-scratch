@@ -317,6 +317,12 @@ Better compatibility with new devices, browsers, and tools.
 
 ### CSS(Cascading Style Sheets) Fundamentals
 
+### 1. What is CSS?
+CSS stands for Cascading Style Sheets.
+It is the stylesheet language that is used to define styles for the HTML documents, including the design, layout and variations in display for different devices and screen sizes.
+
+
+
 
 
 
