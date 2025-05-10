@@ -225,34 +225,36 @@ HTML checkbox input element:
 Syntax: 
 `<input type="text">`
 
-password
+`type="password"`
 - Hides the typed characters. Ideal for passwords.
 Syntax:
 `<input type="password">`
 
-email
+`type="email"`
 - Accepts only valid email formats.
 Syntax:
 `<input type="email">`
 
-number
+`type="number"`
 - Allows only numbers. You can set min, max, and step.
 Syntax:
 `<input type="number" min="1" max="100">`
 
-checkbox
+`type="checkbox"`
 - Let users select multiple options.
 Syntax:
 `<input type="checkbox" name="hobby" value="reading">`
 
-radio
+`type="radio"`
 - Let users select only one option in a group.
 Syntax:
 `<input type="radio" name="gender" value="male">`
 
-submit
+`type="submit"`
 - A button that submits the form data.
 `<input type="submit" value="Submit">`
+
+etc.
 
 ### 24. HTML Validation Attributes?
 - required: Ensures the field isn't empty.
