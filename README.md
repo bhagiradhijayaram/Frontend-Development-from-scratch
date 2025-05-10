@@ -27,6 +27,8 @@ HTML Elements are the building blocks of HTML that describe the structure and co
   </body>
 </html>
 ```
+Note: The extension of an HTML file is .html
+
 
 ### 4. What is the use of the doctype?
 The doctype declaration tells the type/version of the HTML document to the browser.  
