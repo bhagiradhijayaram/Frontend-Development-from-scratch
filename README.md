@@ -340,7 +340,7 @@ It is the stylesheet language that is used to define styles for the HTML documen
 - The HTML href attribute stands for the URL/path of the CSS file.
 
 
-### 2. How to add CSS to the HTML document?
+### 3. How to add CSS to the HTML document?
 CSS can be added to HTML documents in 3 ways.
 
 ✅ 1. Inline CSS
@@ -354,7 +354,7 @@ CSS can be added to HTML documents in 3 ways.
 - In External CSS, CSS property-values are defined in a separate .css file.
 - It can be used to define the styles for many HTML documents.
 
-### 3. What is a responsive web design?
+### 4. What is a responsive web design?
 Responsive web design:
 - Responsive web design is an approach to making web pages give the best user experience on all devices.
 - A responsive website will automatically adjust for different screen sizes and viewports.
