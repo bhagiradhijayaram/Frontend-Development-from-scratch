@@ -70,6 +70,7 @@ Syntax:
 div element:
 - The HTML div element is a block-level element	
 - It can be used to wrap around other HTML elements and apply CSS styles to many elements at once
+  
 span element:
 - The HTML span element is an inline element
 - It can be used to wrap a small portion of text, etc, and add CSS styles to it
@@ -78,7 +79,7 @@ span element:
 - The HTML script element can be used to embed the JavaScript code.
 - It can contain scripting statements, or it points to an external script file through the src attribute.
 Syntax:
-- <script src="counter.js"></script>
+`<script src="counter.js"></script>`
 
 ### 12. How to display images on the web page?
 We can display images on the web page using the HTML img element.
@@ -86,7 +87,7 @@ Generally, the HTML img element requires two main HTML attributes.
 - src specifies the path to the image.
 - alt specifies an alternate text for the image.
 Syntax:
-- <img src="IMAGE_URL" alt="image" />
+`<img src="IMAGE_URL" alt="image" />`
 
 ### 13. How to create a link in HTML, and what is the HTML target attribute?
 - The HTML anchor element can be used to create links on a web page.
@@ -107,7 +108,7 @@ _top	It opens the document in a full-body window.
 HTML ordered list	
 - It is a collection of related items that follow some order or have a sequence	
 - It is created using the ol element	
-- By default, list items in the Ordered List are marked with numbers.	
+- By default, list items in the Ordered List are marked with numbers.
 HTML unordered list:
 - It is a collection of related items that have no special order or sequence
 - It is created using the ul element- 
@@ -118,7 +119,6 @@ Block-level Elements:
 - The HTML Block-level elements always start in a new line and take up the full width available. 
 - So, an HTML Block-level element occupies the entire horizontal space of its parent element.
 - Examples: HTML h1 element, HTML p element, HTML div element, etc.
-
 Inline Elements:
 - The HTML Inline elements do not start in a new line and take up the content width.
 - Examples: HTML button element, HTML img element, HTML a element, etc.
