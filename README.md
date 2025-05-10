@@ -44,9 +44,10 @@ It can contain text content, paragraphs, headings, images, tables, links, videos
 
 ### 7. What are the uses of HTML?
 Some of the uses of HTML are:
-- Structuring web pages.
-- Creating Hyperlinks.
-- Embedding images and videos.
+- Structuring web pages: HTML elements define the headings, paragraphs, and other contents of a web page. Without HTML elements, the text on the webpage would all look the same.
+- Creating Hyperlinks: With Hyperlinks, we can navigate within the HTML document, to other web pages, etc.
+- Embedding images and videos: HTML elements, we can embed images and videos in the HTML document.
+
 
 ### 8. Can we design dynamic web pages using HTML?
 No, HTML alone cannot design dynamic web pages.  
