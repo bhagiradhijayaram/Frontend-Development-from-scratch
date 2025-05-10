@@ -17,7 +17,6 @@ HTML Elements are the building blocks of HTML that describe the structure and co
 
 ### 3. What is the structure of an HTML document?
 **Syntax:**
-```html
 <!DOCTYPE html>
 <html>
   <head>
