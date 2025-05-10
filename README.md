@@ -362,6 +362,7 @@ Responsive web design:
 ### 5. What are the advantages and disadvantages of CSS?
 
 ✅ Advantages of CSS:
+
 Separation of content and style
 - HTML handles structure, CSS handles styling, making both easier to maintain.
   
@@ -381,6 +382,7 @@ Responsive Design
 - Enables websites to adapt across devices using media queries.
 
 ❌ Disadvantages of CSS:
+
 Browser Compatibility Issues
 - Some styles may behave differently in different browsers.
 
