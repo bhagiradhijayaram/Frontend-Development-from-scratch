@@ -17,6 +17,7 @@ HTML Elements are the building blocks of HTML that describe the structure and co
 
 ### 3. What is the structure of an HTML document?
 **Syntax:**
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,7 +27,7 @@ HTML Elements are the building blocks of HTML that describe the structure and co
     Document Content
   </body>
 </html>
-```html
+
 
 ### 4. What is the use of the doctype?
 The doctype declaration tells the type/version of the HTML document to the browser.  
