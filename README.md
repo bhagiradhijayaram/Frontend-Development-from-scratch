@@ -460,6 +460,29 @@ The CSS border-radius property specifies the roundness of the four corners of an
 ### 11. What is the sequence of CSS margin properties?
 - The sequence of CSS margin properties is margin-top, margin-right, margin-bottom, margin-left.
 
+### 12. What is the CSS Box Model?
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of margin, border, padding, and the actual content.
+
+Each element is made up of four layers:
+
+Content – The actual text or image inside the box
+
+Padding – Space between the content and the border
+
+Border – The edge around the padding (can be visible or invisible)
+
+Margin – Space outside the border that separates the element from others
+
+### 🧱 Visual Structure (from inside out):
+
+[ Margin ]
+  [ Border ]
+    [ Padding ]
+      [ Content ]
+
+
+
 
 
 
