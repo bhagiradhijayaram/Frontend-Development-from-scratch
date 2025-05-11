@@ -504,11 +504,11 @@ It simplifies layout design compared to floats or positioning.
 
 ### 15. What are the differences between display: none and visibility: hidden?
 
-"display: none"	
+### display: none
 1. It doesn't display the HTML element	
 2. Space will not be allocated for an HTML element in the layout	
 
-"visibility: hidden"
+### visibility: hidden
 1. It hides the HTML element (i.e cannot be seen in the layout/web page)
 2. Space will be allocated for an HTML element in the layout
 
