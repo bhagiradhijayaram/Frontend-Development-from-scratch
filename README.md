@@ -512,6 +512,15 @@ It simplifies layout design compared to floats or positioning.
 1. It hides the HTML element (i.e cannot be seen in the layout/web page)
 2. Space will be allocated for an HTML element in the layout
 
+### 16. Explain CSS display property with the values inline and block?
+The CSS display property with the value block converts an HTML element to a block-level element.
+- The block-level element always starts on a new line.
+- It always takes up the full width available
+The CSS display property with the value inline converts an HTML element to an inline element.
+- The inline element does not start on a new line.
+- It only takes up as much width as necessary.
+
+
 
 
 
