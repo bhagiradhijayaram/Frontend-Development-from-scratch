@@ -596,12 +596,11 @@ There are five different position values:
 - absolute
 - sticky
 
-  1. Static
-Default positioning.
+`Static`
 
-Element flows naturally in the page layout.
-
-It can't be moved with top, left, right, or bottom.
+- Default positioning.
+- Element flows naturally in the page layout.
+- It can't be moved with top, left, right, or bottom.
 
 2. Relative
 Positioned relative to its original position.
