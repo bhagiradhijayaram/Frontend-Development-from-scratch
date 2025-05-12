@@ -601,6 +601,29 @@ selector {
   transition: property duration timing-function delay;
 }
 ```
+### 20. Explain CSS Animations
+CSS Animations allow elements to transition between styles over time by defining keyframes and animation properties, enabling more complex and continuous visual effects than transitions.
+
+**Basic Structure**
+🔹 Define Keyframes:
+```css
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+```
+**Apply Animation:**
+```css
+.box {
+  animation: slideIn 1s ease-in-out forwards;
+}
+```
+
+
 
 
 
