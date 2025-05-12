@@ -529,6 +529,31 @@ The CSS display property with the value inline converts an HTML element to an in
 - The inline element does not start on a new line.
 - It only takes up as much width as necessary.
 
+### 17. CSS Grid System 
+CSS Grid is a two-dimensional layout system in CSS that allows web developers to create responsive layouts by organizing content into rows and columns using a grid-based structure.
+
+```html
+<div class="grid-container">
+  <div>Box 1</div>
+  <div>Box 2</div>
+  <div>Box 3</div>
+  <div>Box 4</div>
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.grid-container > div {
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+```
+
 
 ### 17. Bootstrap Grid System
 Bootstrap uses a 12-column grid layout to create responsive page designs. It’s based on Flexbox and includes classes for different screen sizes:
