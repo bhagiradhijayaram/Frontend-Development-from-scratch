@@ -595,6 +595,12 @@ CSS Transitions allow you to smoothly change property values over a specified du
 
 - transition-delay → Delay before it starts (e.g., 0.2s)
 
+**Basic Syntax:**
+```css
+selector {
+  transition: property duration timing-function delay;
+}
+```
 
 
 
