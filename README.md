@@ -530,6 +530,35 @@ The CSS display property with the value inline converts an HTML element to an in
 - It only takes up as much width as necessary.
 
 
+### 17. Bootstrap Grid System
+Bootstrap uses a 12-column grid layout to create responsive page designs. It’s based on Flexbox and includes classes for different screen sizes:
+
+**Basic Syntax:**
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">Column 1</div>
+    <div class="col-md-4">Column 2</div>
+    <div class="col-md-4">Column 3</div>
+  </div>
+</div>
+```
+
+### esponsive Breakpoints:
+
+`col- (extra small, <576px)`
+
+`col-sm- (≥576px)`
+
+`col-md- (≥768px)`
+
+`col-lg- (≥992px)`
+
+`col-xl- (≥1200px)`
+
+`col-xxl- (≥1400px)`
+
+
 
 
 
