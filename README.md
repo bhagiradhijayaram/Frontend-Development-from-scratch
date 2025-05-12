@@ -605,6 +605,7 @@ selector {
 CSS Animations allow elements to transition between styles over time by defining keyframes and animation properties, enabling more complex and continuous visual effects than transitions.
 
 **Basic Structure**
+
 🔹 Define Keyframes:
 ```css
 @keyframes slideIn {
