@@ -315,6 +315,14 @@ Better compatibility with new devices, browsers, and tools.
 ### 26. What is Accessibility in Web Development?
 - Accessibility (often abbreviated as a11y) means designing websites and applications so that everyone, including people with disabilities, can perceive, understand, navigate, and interact with the web effectively.
 
+### 27. What is an <iframe> in HTML?
+An <iframe> (short for inline frame) is an HTML element used to embed another HTML document within the current document. It's like showing another website or webpage inside your current page.
+
+**Syntax:**
+```html
+<iframe src="https://example.com" width="600" height="400"></iframe>
+```
+
 ### CSS(Cascading Style Sheets) Fundamentals
 
 ### 1. What is CSS?
