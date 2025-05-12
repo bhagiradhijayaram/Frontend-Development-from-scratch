@@ -555,7 +555,7 @@ CSS Grid is a two-dimensional layout system in CSS that allows web developers to
 ```
 
 
-### 17. Bootstrap Grid System
+### 18. Bootstrap Grid System
 Bootstrap uses a 12-column grid layout to create responsive page designs. It’s based on Flexbox and includes classes for different screen sizes:
 
 **Basic Syntax:**
