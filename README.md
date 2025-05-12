@@ -587,13 +587,13 @@ Bootstrap uses a 12-column grid layout to create responsive page designs. It’s
 CSS Transitions allow you to smoothly change property values over a specified duration, making animations like fading, sliding, or resizing possible without JavaScript.
 
 ### Transition Properties:
-transition-property → What to animate (e.g., color, width)
+- transition-property → What to animate (e.g., color, width)
 
-transition-duration → How long (e.g., 0.5s)
+- transition-duration → How long (e.g., 0.5s)
 
-transition-timing-function → The speed curve (ease, linear, ease-in, ease-out)
+- transition-timing-function → The speed curve (ease, linear, ease-in, ease-out)
 
-transition-delay → Delay before it starts (e.g., 0.2s)
+- transition-delay → Delay before it starts (e.g., 0.2s)
 
 
 
