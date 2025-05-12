@@ -583,6 +583,25 @@ Bootstrap uses a 12-column grid layout to create responsive page designs. It’s
 
 `col-xxl- (≥1400px)`
 
+### Explain about positions in CSS?
+CSS Position property determines how an HTML element is positioned in the document flow and how it behaves in relation to other elements.
+
+The position Property
+
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+- static
+- relative
+- fixed
+- absolute
+- sticky
+
+
+
+
+
 ### 19. Explain CSS Transitions
 CSS Transitions allow you to smoothly change property values over a specified duration, making animations like fading, sliding, or resizing possible without JavaScript.
 
