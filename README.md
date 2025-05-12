@@ -501,7 +501,14 @@ CSS Flexbox (short for Flexible Box Layout) is a CSS layout model that allows yo
 
 It simplifies layout design compared to floats or positioning.
 
+### Flexbox Properties:
 
+```html
+display: flex;
+flex-direction: row | column;
+justify-content: center | space-between | space-around;
+align-items: center | flex-start | stretch;
+```
 ### 15. What are the differences between display: none and visibility: hidden?
 
 ### display: none
