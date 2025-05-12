@@ -506,8 +506,8 @@ It simplifies layout design compared to floats or positioning.
 ```html
 display: flex;
 flex-direction: row | column;
-justify-content: center | space-between | space-around;
-align-items: center | flex-start | stretch;
+justify-content: flex-start | flex-end | center | space-between | space-around;
+align-items: stretch | flex-start | flex-end | center;
 ```
 ### 15. What are the differences between display: none and visibility: hidden?
 
