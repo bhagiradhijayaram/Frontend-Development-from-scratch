@@ -602,27 +602,21 @@ There are five different position values:
 - Element flows naturally in the page layout.
 - It can't be moved with top, left, right, or bottom.
 
-2. Relative
-Positioned relative to its original position.
+`Relative`
+- Positioned relative to its original position.
+- Can be moved using top, left, right, or bottom, but still takes up space in the flow.
 
-Can be moved using top, left, right, or bottom, but still takes up space in the flow.
+`Absolute`
+- Positioned relative to the nearest ancestor with a position other than static.
+- Removed from the normal document flow (doesn’t affect the positioning of other elements).
 
-3. Absolute
-Positioned relative to the nearest ancestor with a position other than static.
+`Fixed`
+- Positioned relative to the viewport (browser window).
+- Stays in the same spot even when you scroll.
 
-Removed from the normal document flow (doesn’t affect the positioning of other elements).
-
-4. Fixed
-Positioned relative to the viewport (browser window).
-
-Stays in the same spot even when you scroll.
-
-5. Sticky
-Acts like relative at first.
-
-Becomes fixed when you scroll past a certain point.
-
-
+`Sticky`
+- Acts like relative at first.
+- Becomes fixed when you scroll past a certain point.
 
 ### 20. Explain CSS Transitions
 CSS Transitions allow you to smoothly change property values over a specified duration, making animations like fading, sliding, or resizing possible without JavaScript.
