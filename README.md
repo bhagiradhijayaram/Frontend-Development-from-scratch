@@ -58,16 +58,6 @@ The HTML anchor element is used to navigate to other web resources or a specific
 
 **Syntax:**  `<a href="URL">Content</a>`
 
-### 8. Can we design dynamic web pages using HTML?
-- No, we can't design dynamic web pages with HTML alone.
-- By combining HTML with JavaScript, we can create dynamic web pages.
-
-### 9. What is the use of an HTML anchor element?
-- We use the HTML anchor elements to navigate to other web resources or a specific HTML element within the HTML document. They are also called Hyperlinks/ Links.
-  
-**Syntax:**
-`<a href="URL">Content</a>`
-
 ### 10. What are the differences between HTML div and span elements?
 div element:
 - The HTML div element is a block-level element	
