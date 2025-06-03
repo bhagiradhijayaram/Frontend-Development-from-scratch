@@ -189,6 +189,7 @@ You use the <form> element, which can contain input fields, buttons, labels, and
 HTML radio input element:
 - It is used when only one option to be selected out of several available options.
 - It is created by using an HTML input element with the type attribute value is set to radio.
+  
 HTML checkbox input element:
 - It is used when more than one option to be selected out of several available options.
 - It is also created by using the HTML input element with the type attribute value is set to checkbox.
