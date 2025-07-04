@@ -661,11 +661,15 @@ CSS Animations allow elements to transition between styles over time by defining
 ### JavaScript Fundamental
 
 What is a Garbage Collector in JavaScript?
+
 The garbage collector (GC) is an automatic memory management system in JavaScript that:
 
 Finds and removes unused (unreachable) objects from memory so your app doesn't run out of memory.
+
 Why is Garbage Collection needed?
+
 When you create variables, objects, or arrays in JS, they take up memory.
+
 If you don’t clean them up after you're done, memory keeps filling up — and your app may crash or slow down.
 
 JavaScript’s Garbage Collector does this cleanup automatically.
