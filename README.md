@@ -674,6 +674,10 @@ Why is Garbage Collection needed?
 
 - JavaScript’s Garbage Collector does this cleanup automatically.
 
+### difference between SSR (Server-Side Rendering) and CSR (Client-Side Rendering)?
+
+both are ways to render content on websites, but they differ in when and where the HTML is generated.
+
 ### Server-Side Rendering (SSR)
 
 Server-side rendering is the process of rendering(loading) the web pages on the server side and sending the fully rendered HTML to the client. In this, the server generates HTML dynamically based on the requested URL and data then sends it to the client.
