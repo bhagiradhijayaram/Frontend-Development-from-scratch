@@ -674,6 +674,17 @@ Why is Garbage Collection needed?
 
 - JavaScript’s Garbage Collector does this cleanup automatically.
 
+### Server-Side Rendering (SSR)
+
+Server-side rendering is the process of rendering(loading) the web pages on the server side and sending the fully rendered HTML to the client. In this, the server generates HTML dynamically based on the requested URL and data then sends it to the client.
+
+### Client-Side Rendering (CSR)
+
+Client side rendering is the process of rendering web pages on the client side using JavaScript after the initial HTML is loaded. In this, the browser loads a minimal HTML document then JavaScript retrieves data from the server and generates the HTML dynamically.
+
+
+
+
 
 
 
