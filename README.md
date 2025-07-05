@@ -686,7 +686,13 @@ Server-side rendering is the process of rendering(loading) the web pages on the 
 
 Client side rendering is the process of rendering web pages on the client side using JavaScript after the initial HTML is loaded. In this, the browser loads a minimal HTML document then JavaScript retrieves data from the server and generates the HTML dynamically.
 
+### What is difference between Call(), Apply(), Bind()? 
 
+Call() -> Invokes the function immediately, with this set to thisArg, and accepts arguments one by one.
+
+Apply() -> Invokes the function immediately, with this set to thisArg, but takes arguments as an array.
+
+Bind() -> Returns a new function, with this set to thisArg, and any present arguments, but doesn't invoke it immediately.
 
 
 
