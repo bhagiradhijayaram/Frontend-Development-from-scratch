@@ -688,6 +688,12 @@ Client side rendering is the process of rendering web pages on the client side u
 
 ### What is difference between Call(), Apply(), Bind()? 
 
+```html
+function cook(ing1,ing2,ing3){
+    console.log(`${this.name} is having a meal with ${ing1}, ${ing2}, ${ing3}`)
+}
+```
+
 Call() -> Invokes the function immediately, with this set to thisArg, and accepts arguments one by one.
 
 Apply() -> Invokes the function immediately, with this set to thisArg, but takes arguments as an array.
