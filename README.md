@@ -692,13 +692,27 @@ Client side rendering is the process of rendering web pages on the client side u
 function cook(ing1,ing2,ing3){
     console.log(`${this.name} is having a meal with ${ing1}, ${ing2}, ${ing3}`)
 }
+const person = { name : "Jayaram"}
 ```
 
 Call() -> Invokes the function immediately, with this set to thisArg, and accepts arguments one by one.
 
+```// call()
+cook.call(person,"rice",'beans',"water")
+```
+
 Apply() -> Invokes the function immediately, with this set to thisArg, but takes arguments as an array.
 
+```// apply()
+cook.apply(person,["rice",'beans',"water"])
+```
+
 Bind() -> Returns a new function, with this set to thisArg, and any present arguments, but doesn't invoke it immediately.
+
+```// bind()
+const cookForJayaram = cook.bind(person,"rice",'beans',"water")
+cookForJayaram()
+```
 
 
 
