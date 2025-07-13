@@ -636,7 +636,7 @@ selector {
 }
 ```
 ### 21. Explain CSS Animations
-CSS Animations allow elements to transition between styles over time by defining keyframes and animation properties, enabling more complex and continuous visual effects than transitions.
+CSS Animations allow you to create smooth, customizable animations directly in CSS without JavaScript. They are used to change property values over time (like color, size, position, etc.).
 
 **Basic Structure**
 
