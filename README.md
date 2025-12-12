@@ -867,6 +867,33 @@ setState((prev) => prev + 1);
 ```
 ✔ Correct — this is useful especially when updating counters.
 
+useReducer Hook:
+- useReducer is a React hook used for managing complex state logic in functional components.
+It is an alternative to useState when:
+
+The state updates involve multiple sub-values
+The update logic is complex
+State transitions need to be controlled through actions
+It works similarly to Redux but on a smaller, component-level scale.
+```
+const [state, dispatch] = useReducer(reducer, initialValue);
+```
+```
+function reducer(state, action) {
+    switch (action.type) {
+        case "increment":
+            return state + 1;
+        case "decrement":
+            return state - 1;
+        default:
+            return state;
+    }
+}
+
+const [count, dispatch] = useReducer(reducer, 0);
+<button onClick={() => dispatch({ type: "increment" })}>+</button>
+```
+
 useEffect Hook:
 
 Definition:
