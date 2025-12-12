@@ -714,7 +714,7 @@ const cookForJayaram = cook.bind(person,"rice",'beans',"water")
 cookForJayaram()
 ```
 ### Event loop architecture in javascript
-
+```
 // call stack   - it create GEC, when js code starts execution.
 
 // event Loop - continuously monitoring call stack and callback quene.
@@ -731,7 +731,7 @@ console.log("end")
 // callback queue 
 // | - microtask queue
 // | - macrotask queue
-
+```
 
 
 
