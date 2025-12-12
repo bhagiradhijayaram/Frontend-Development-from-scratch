@@ -732,8 +732,29 @@ console.log("end")
 // | - microtask queue
 // | - macrotask queue
 ```
+### Promises in javascript
+```
+// promises in javascript
+// defination: promises are way to handle async operations.
+// states:
+// pending state - means either fullfilled or rejected.
+// fullfilled state - means operation completed successfully.
+// rejected state - means operation failure. 
 
-
+// example: 
+const myPromise = new Promise((resolve, reject) => {
+    const apiData = true 
+    if(!apiData){
+        resolve("Api data received")
+    }
+    else{
+        reject("Operation failure")
+    }
+})
+myPromise
+.then((argument) => console.log(argument))
+.catch((error) => console.log(error))
+```
 
 
 
