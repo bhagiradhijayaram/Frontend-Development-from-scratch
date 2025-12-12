@@ -755,7 +755,20 @@ myPromise
 .then((message) => console.log(message)) // Api data received
 .catch((error) => console.log(error)) // Operation failure
 ```
+### aysnc and wait modern approach
+```
+const fetchData = async () => {
+    const response = await fetch("URL")
+    if(response.ok){
+        console.log("Operation success")
+    }
+    else{
+        console.log("Operation failure")
+    }
+}
 
+fetchData()
+```
 
 
 
