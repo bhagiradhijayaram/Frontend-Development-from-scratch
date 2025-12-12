@@ -844,9 +844,60 @@ const promise = new Promise((resolve, reject) => {
 export const x = 10;
 import { x } from "./file.js";
 ```
+// React Hooks:
+### useState Hook:
+Definition:
+- useState is a React hook used to declare a state variable inside a functional component.
+- It allows you to read and update state within functional components.
+```
+const [state, setState] = useState()
+```
+State Updation Methods
+1. Direct update (one way of updating)
+- Used when the new value does not depend on the previous value.
+```
+setState(!state); 
+```
+✔ Correct — commonly used for toggling boolean values.
+2. Functional update (second way of updating)
+Used when the new state depends on the previous state value.
+```
+setState((prev) => prev + 1);
+```
+✔ Correct — this is useful especially when updating counters.
 
+Definition
 
+useEffect Hook:
+Definition:
+- useEffect is a React hook used to handle side effects in functional components.
 
+Examples of side effects include:
+Initializing API calls
+Setting up timers
+Subscribing/unsubscribing (e.g., event listeners)
+Updating the DOM manually
+
+```
+useEffect(() => {
+    console.log("Component mounted"); 
+    // This runs once — similar to componentDidMount()
+    
+    return () => {
+        console.log("Cleanup");
+        // This runs when component unmounts — similar to componentWillUnmount()
+    };
+}, []);  // Dependency array
+``` 
+
+Udating Phase Explanation (Correct Version)
+To run useEffect during updates, you give dependencies:
+```
+useEffect(() => {
+    console.log("Component updated");
+}, [state]);
+```
+This runs when state changes — similar to componentDidUpdate().
 
 
 
