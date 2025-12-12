@@ -844,8 +844,8 @@ const promise = new Promise((resolve, reject) => {
 export const x = 10;
 import { x } from "./file.js";
 ```
-// React Hooks:
-### useState Hook:
+### React Hooks:
+useState Hook:
 Definition:
 - useState is a React hook used to declare a state variable inside a functional component.
 - It allows you to read and update state within functional components.
@@ -865,8 +865,6 @@ Used when the new state depends on the previous state value.
 setState((prev) => prev + 1);
 ```
 ✔ Correct — this is useful especially when updating counters.
-
-Definition
 
 useEffect Hook:
 Definition:
