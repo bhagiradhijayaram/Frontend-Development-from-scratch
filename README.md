@@ -769,6 +769,14 @@ const fetchData = async () => {
 
 fetchData()
 ```
+### Arrays in javascript:
+Definition: array is collection of ordered sequence of items, these are used to store mutliple values in single variable.
+```
+// array creation
+let myarray = [1,2,3]
+or 
+const myarray = new Array(1,2,3)
+```
 
 
 
