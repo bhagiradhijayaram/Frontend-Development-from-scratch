@@ -777,10 +777,73 @@ let myarray = [1,2,3]
 or 
 const myarray = new Array(1,2,3)
 ```
-
-
-
-
+### ES6+ features in javascript:
+1. let & const
+- Block-scoped variable declarations.
+```
+let x = 10;
+const y = 20;
+```
+2. Arrow Functions
+- Shorter and cleaner function syntax.
+```
+const add = (a, b) => a + b;
+```
+3. Template literals
+- Use backticks for string interpolation.
+```
+let PersonName = 'Jayaram'
+console.log(`${PersonName} is a frontend developer`) 
+```
+4. Destructuring
+- Extract values easily.
+```
+const [a, b] = [10, 20];
+const { name, age } = { name: "Jay", age: 22 };
+```
+5. Spread and Rest operators 
+Spread Operator (...)
+- Expands arrays or objects.
+```
+const nums = [1, 2, 3];
+const newNums = [...nums, 4];
+```
+Rest Operator (...)
+- Collects remaining values. 
+```
+function sum(...args) {
+  return args.reduce((a, b) => a + b);
+}
+```
+6. Default parameters
+- Set default values for function arguments.
+```
+function greet(name = "Guest") {
+  console.log(name);
+}
+```
+7. Classes
+- Cleaner way to write constructor functions.
+```
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+```
+8. Promises
+- Used for async operations.
+```
+const promise = new Promise((resolve, reject) => {
+  resolve("Done");
+});
+```
+9. Modules (import/export)
+- Organize code across files.
+```
+export const x = 10;
+import { x } from "./file.js";
+```
 
 
 
