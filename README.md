@@ -846,6 +846,7 @@ import { x } from "./file.js";
 ```
 ### React Hooks:
 useState Hook:
+
 Definition:
 - useState is a React hook used to declare a state variable inside a functional component.
 - It allows you to read and update state within functional components.
@@ -867,6 +868,7 @@ setState((prev) => prev + 1);
 ✔ Correct — this is useful especially when updating counters.
 
 useEffect Hook:
+
 Definition:
 - useEffect is a React hook used to handle side effects in functional components.
 
