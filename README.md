@@ -744,7 +744,7 @@ console.log("end")
 // example: 
 const myPromise = new Promise((resolve, reject) => {
     const apiData = true 
-    if(!apiData){
+    if(apiData){
         resolve("Api data received")
     }
     else{
@@ -752,8 +752,8 @@ const myPromise = new Promise((resolve, reject) => {
     }
 })
 myPromise
-.then((argument) => console.log(argument))
-.catch((error) => console.log(error))
+.then((message) => console.log(message)) // Api data received
+.catch((error) => console.log(error)) // Operation failure
 ```
 
 
