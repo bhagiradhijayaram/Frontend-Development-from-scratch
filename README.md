@@ -713,7 +713,24 @@ Bind() -> Returns a new function, with this set to thisArg, and any present argu
 const cookForJayaram = cook.bind(person,"rice",'beans',"water")
 cookForJayaram()
 ```
+### Event loop architecture in javascript
 
+// call stack   - it create GEC, when js code starts execution.
+
+// event Loop - continuously monitoring call stack and callback quene.
+
+console.log("start")
+setTimeout(function() {
+    console.log("Timeout")
+}, 10); 
+Promise.resolve().then(() => console.log("promise")) 
+console.log("end")
+
+// web apis => Timers, promises, DOM Manipulation, and etc..
+
+// callback queue 
+// | - microtask queue
+// | - macrotask queue
 
 
 
