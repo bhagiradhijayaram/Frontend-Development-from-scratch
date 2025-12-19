@@ -844,6 +844,11 @@ const promise = new Promise((resolve, reject) => {
 export const x = 10;
 import { x } from "./file.js";
 ```
+## Core React Questions (VERY LIKELY)
+### What is React?
+Answer:
+React is a JavaScript library used to build user interfaces, especially single-page applications. It follows a component-based architecture and allows us to build reusable UI components.
+
 ### React Hooks:
 useState Hook:
 
