@@ -848,7 +848,16 @@ import { x } from "./file.js";
 ### What is React?
 Answer:
 React is a JavaScript library used to build user interfaces, especially single-page applications. It follows a component-based architecture and allows us to build reusable UI components.
+### What are components?
+Answer:
+Components are reusable pieces of UI. In React, components can be functional or class components. Nowadays, we mostly use functional components with hooks.
+### What are props?
+Answer:
+Props are used to pass data from a parent component to a child component. Props are read-only and help make components reusable.
+### What is state?
+Answer:
 
+State is used to manage dynamic data inside a component. When state changes, the component re-renders to reflect the updated UI.
 ### React Hooks:
 useState Hook:
 
