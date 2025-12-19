@@ -856,7 +856,6 @@ Answer:
 Props are used to pass data from a parent component to a child component. Props are read-only and help make components reusable.
 ### What is state?
 Answer:
-
 State is used to manage dynamic data inside a component. When state changes, the component re-renders to reflect the updated UI.
 ### React Hooks:
 useState Hook:
